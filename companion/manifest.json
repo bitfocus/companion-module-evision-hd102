@@ -1,26 +1,32 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
-	"version": "0.0.0",
+	"id": "evision-hd102",
+	"name": "Evision HD102",
+	"shortname": "hd102",
+	"description": "Module voor Evision HD102",
+	"version": "1.0.2",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-evision-hd102.git",
+	"bugs": "https://github.com/bitfocus/companion-module-evision-hd102/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Sander Kamp",
+			"email": "skamp@live.nl"
 		}
 	],
 	"runtime": {
 		"type": "node22",
 		"api": "nodejs-ipc",
-		"apiVersion": "0.0.0",
+		"apiVersion": "1.0.2",
 		"entrypoint": "../main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "Evision",
+	"products": ["HD102"],
+	"keywords": [
+		"brightness control",
+		"freeze/blackout",
+		"test patterns",
+		"Evision",
+		"HD102"
+	]
 }
