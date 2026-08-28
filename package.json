@@ -17,7 +17,7 @@
 		"@companion-module/base": "~1.11.3"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^2.6.1",
+		"@companion-module/tools": "^2.8.0",
 		"eslint": "8",
 		"prettier": "^3.5.3",
 		"typescript": "5"
